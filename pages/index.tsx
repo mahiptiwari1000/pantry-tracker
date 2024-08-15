@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from "react";
 import { addDoc, collection, deleteDoc, doc, onSnapshot, query } from "firebase/firestore";
-import { db } from "./firebase";
+import { db } from "../firebase";
 
 export default function Home() {
 
